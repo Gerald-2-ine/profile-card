@@ -32,4 +32,4 @@ To view the project locally on your computer:
 
 1. Clone this repository  
    ```bash
-   git clone https://github.com/yourusername/profile-card.git
+   git clone https://github.com/Gerald-2-ine/profile-card.git
