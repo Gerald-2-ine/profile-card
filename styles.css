@@ -127,14 +127,22 @@ nav[data-testid="test-user-social-links"] ul {
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
-    background-color: #6a9df8;
-    padding: 0.5rem 1.2rem;
-    border-radius: 25px;
-    font-weight: 500;
-    transition: all 0.3s;
-    gap: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: #6a9df8;
+  padding: 0.8rem 1rem;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  transition: all 0.3s;
+  width: 45px;
+  height: 45px;
+}
+
+nav a i {
+  pointer-events: none; /* ensures icon doesn’t block clicks */
 }
 
 nav a:focus {
@@ -148,7 +156,17 @@ nav a:focus {
 
 nav a:hover {
     background-color: #4e83e4;
-    transform: scale(1.05);
+    transform: scale(1.1);
+}
+
+nav a[data-testid="test-user-social-twitter"] {
+  background-color: #1da1f2;
+}
+nav a[data-testid="test-user-social-github"] {
+  background-color: #24292e;
+}
+nav a[data-testid="test-user-social-linkedin"] {
+  background-color: #0077b5;
 }
 
 /* ========== Lists (Hobbies & Dislikes) ========== */
@@ -251,3 +269,4 @@ section ul li:hover {
     }
 
 }
+
