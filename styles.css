@@ -134,6 +134,7 @@ nav a {
     border-radius: 25px;
     font-weight: 500;
     transition: all 0.3s;
+    gap: 1rem;
 }
 
 nav a:focus {
@@ -248,4 +249,5 @@ section ul li:hover {
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
         gap: 0.5rem;
     }
+
 }
